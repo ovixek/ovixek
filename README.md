@@ -11,7 +11,7 @@ Currently pursuing **PG-DESD** at **CDAC Sunbeam**, I’m strengthening my skill
 ## 🚀 **Tech Stack**
 ### **Embedded & Firmware**
 - Embedded C, C++, ARM Cortex-M  
-- 8051, Arduino, ESP32  
+- 8051, Arduino, ESP32, STM32
 - UART, SPI, I2C, Timers, PWM, GPIO  
 - Interrupt handling, bare-metal programming  
 - RTOS (basics), Embedded Linux (basics)
