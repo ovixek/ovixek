@@ -58,6 +58,32 @@ Key Highlights:
 
 ---
 
+### 🟨 **3. Vehicle Safety System using CAN & IoT (PG-DESD Major Project – CDAC)**  
+**Tech:** Embedded C, STM32F407, CAN (MCP2551), ESP8266, MQTT, GPS, Sensors  
+**Platform:** ARM Cortex-M4 (STM32)  
+**Duration:** 6 months  
+
+A safety-critical embedded system designed to monitor key vehicle parameters and transmit data reliably using CAN and IoT technologies.
+
+Key Highlights:  
+- Dual-node embedded architecture using **two STM32F407 microcontrollers**  
+- Reliable inter-ECU communication using **CAN protocol (MCP2551 transceivers)**  
+- Sensor node monitoring:
+  - Ultrasonic sensor (obstacle distance)
+  - LM35 temperature sensor
+  - MQ-2 gas sensor  
+- Receiver node integrating:
+  - **GPS (M8N)** for real-time location tracking  
+  - **ESP8266 Wi-Fi module** for cloud connectivity  
+- Implemented **UART-based GPS parsing** and **MQTT data publishing**  
+- Real-time alerts using buzzer for abnormal conditions  
+- Cloud visualization using **ThingsBoard IoT dashboard**  
+- Firmware developed using **datasheet-driven peripheral configuration** and modular design  
+
+🔗 **Repo:** https://github.com/ovixek/CDAC_PROJECT  
+
+---
+
 ## 🎯 **What I'm Learning Right Now**
 - ARM Cortex-M firmware architecture  
 - RTOS tasks, semaphores, queues  
